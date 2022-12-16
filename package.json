@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npx webpack --config=webpack.config.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine-ts --config=jasmine.json"
   },
   "author": "Bastian Lang",
   "license": "ISC",
