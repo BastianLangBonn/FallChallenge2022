@@ -4,6 +4,7 @@
   "description": "coding game fall challenge",
   "main": "index.js",
   "scripts": {
+    "build": "npx webpack --config=webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Bastian Lang",
