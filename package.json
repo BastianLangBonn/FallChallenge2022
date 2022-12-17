@@ -2,8 +2,9 @@
   "name": "fall_challenge",
   "version": "1.0.0",
   "description": "coding game fall challenge",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
+    "start": "webpack --watch",
     "build": "npx webpack --config=src/webpack.config.js --watch",
     "test": "jasmine-ts --config=jasmine.json"
   },
